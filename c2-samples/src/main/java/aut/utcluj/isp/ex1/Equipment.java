@@ -9,11 +9,12 @@ public class Equipment {
 
     public Equipment(String serialNumber) {
         this.name = "NONE";
-        throw new UnsupportedOperationException("Not supported yet.");
+        this.serialNumber = serialNumber;
     }
 
     public Equipment(String name, String serialNumber) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        this.name = name;
+        this.serialNumber = serialNumber;
     }
 
     public String getName() {

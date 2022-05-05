@@ -15,15 +15,24 @@ public class Equipment {
     private EquipmentHistory equipmentHistory;
 
     public Equipment(String serialNumber) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        this.name = "NONE";
+        this.serialNumber = serialNumber;
+        this.currentOwner = "NONE";
+        this.taken = false;
     }
 
     public Equipment(String name, String serialNumber) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        this.name = name;
+        this.serialNumber = serialNumber;
+        this.currentOwner = "NONE";
+        this.taken = false;
     }
 
     public Equipment(String name, String serialNumber, String owner) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        this.name = name;
+        this.serialNumber = serialNumber;
+        this.currentOwner = owner;
+        this.taken = true;
     }
 
     public String getName() {
