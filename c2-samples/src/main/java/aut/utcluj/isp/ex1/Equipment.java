@@ -1,5 +1,7 @@
 package aut.utcluj.isp.ex1;
 
+import java.util.Objects;
+
 /**
  * @author stefan
  */
@@ -24,4 +26,36 @@ public class Equipment {
     public String getSerialNumber() {
         return serialNumber;
     }
+
+    @Override
+    public String toString() {
+        return  name + "_" + serialNumber ;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Equipment other = (Equipment) obj;
+        if (!Objects.equals(this.name, other.name)) {
+            return false;
+        }
+        return Objects.equals(this.serialNumber, other.serialNumber);
+    }
+    
+    
+    
 }
