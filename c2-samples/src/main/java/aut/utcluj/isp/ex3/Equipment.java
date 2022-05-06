@@ -10,13 +10,23 @@ public class Equipment {
     private boolean taken;
 
     public Equipment(String serialNumber) {
+<<<<<<< HEAD
         this.serialNumber = serialNumber;
+=======
+        this.name = "NONE";
+        this.serialNumber = serialNumber;
+        this.owner = "NONE";
+>>>>>>> e289c99fb472e24ebf998e088146089c5fe5b498
         this.taken = false;
     }
 
     public Equipment(String name, String serialNumber) {
         this.name = name;
         this.serialNumber = serialNumber;
+<<<<<<< HEAD
+=======
+        this.owner = "NONE";
+>>>>>>> e289c99fb472e24ebf998e088146089c5fe5b498
         this.taken = false;
     }
 
@@ -60,7 +70,12 @@ public class Equipment {
      * Remove the owner
      */
     public void returnEquipmentToOffice() {
+<<<<<<< HEAD
         this.taken = false;
         this.owner = null;
+=======
+        this.owner = "NONE";
+        this.taken = false;
+>>>>>>> e289c99fb472e24ebf998e088146089c5fe5b498
     }
 }
