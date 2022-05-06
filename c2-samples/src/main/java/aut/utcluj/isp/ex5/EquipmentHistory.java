@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * @author stefan
  */
-public class EquipmentHistory {
+public class EquipmentHistory implements IEquipmentHistory{
     private List<EquipmentHistoryDetails> historyDetailsList;
 
     public void addEquipmentHistory(final String owner, final Operation operation, final LocalDateTime providedDate) {

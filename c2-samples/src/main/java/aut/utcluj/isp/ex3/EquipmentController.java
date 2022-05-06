@@ -1,5 +1,7 @@
 package aut.utcluj.isp.ex3;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -7,14 +9,14 @@ import java.util.Map;
  * @author stefan
  */
 public class EquipmentController {
-
+    List<Equipment> equipmentList = new ArrayList<>();
     /**
      * Add new equipment to the list of equipments
      *
      * @param equipment - equipment to be added
      */
     public void addEquipment(final Equipment equipment) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        equipmentList.add(equipment);
     }
 
     /**
@@ -23,7 +25,7 @@ public class EquipmentController {
      * @return list of equipments
      */
     public List<Equipment> getEquipments() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return equipmentList;
     }
 
     /**
@@ -32,7 +34,7 @@ public class EquipmentController {
      * @return number of equipments
      */
     public int getNumberOfEquipments() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return equipmentList.size();
     }
 
     /**
@@ -41,7 +43,14 @@ public class EquipmentController {
      * @return a dictionary where the key is the owner and value is represented by list of equipments he owns
      */
     public Map<String, List<Equipment>> getEquipmentsGroupedByOwner() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        Map<String, List<Equipment>> map = new HashMap<String, List<Equipment>>();
+        for(Equipment eq : equipmentList) {
+            if(!map.containsKey(eq.getOwner())){
+                map.put(eq.getOwner(),new ArrayList<Equipment>());
+            }
+            map.get(eq.getOwner()).add(eq);
+        }
+        return map;
     }
 
     /**
@@ -50,6 +59,14 @@ public class EquipmentController {
      * @return deleted equipment instance or null if not found
      */
     public Equipment removeEquipmentBySerialNumber(final String serialNumber) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        Equipment removedEq = null;
+        for (int i = 0; i < equipmentList.size(); i++){
+            if(equipmentList.get(i).getSerialNumber().equals(serialNumber))
+            {
+                removedEq = equipmentList.get(i);
+                equipmentList.remove(i);
+            }
+        }
+        return removedEq;
     }
 }

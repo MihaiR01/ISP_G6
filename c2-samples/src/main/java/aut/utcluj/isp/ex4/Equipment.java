@@ -15,15 +15,23 @@ public class Equipment {
     private EquipmentHistory equipmentHistory;
 
     public Equipment(String serialNumber) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        this.serialNumber = serialNumber;
+        this.taken = false;
+        this.currentOwner = null;
     }
 
     public Equipment(String name, String serialNumber) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        this.name = name;
+        this.serialNumber = serialNumber;
+        this.taken = false;
+        this.currentOwner = null;
     }
 
     public Equipment(String name, String serialNumber, String owner) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        this.name = name;
+        this.serialNumber = serialNumber;
+        this.taken = true;
+        this.currentOwner = owner;
     }
 
     public String getName() {
@@ -51,7 +59,13 @@ public class Equipment {
      * @param providedDate - provided date
      */
     public void provideEquipmentToUser(final String owner, final LocalDateTime providedDate) {
-        equipmentHistory.addEquipmentHistory(owner, Operation.PROVIDE, providedDate);
+        if (taken) {
+            throw new EquipmentAlreadyProvidedException();
+        } else {
+            this.currentOwner = owner;
+            this.taken = true;
+            //equipmentHistory.addEquipmentHistory(this.getCurrentOwner(),Operation.PROVIDE,providedDate);
+        }
     }
 
     /**
@@ -59,6 +73,13 @@ public class Equipment {
      * If equipment is taken, the current user of the equipment should be removed, and taken status should be set to false
      */
     public void returnEquipmentToOffice() {
-        equipmentHistory.addEquipmentHistory(this.currentOwner, Operation.RETURN, LocalDateTime.now());
+        if(!taken){
+            throw new EquipmentNotProvidedException();
+        }
+        else
+        {
+            this.taken = false;
+            this.currentOwner = null;
+        }
     }
 }
