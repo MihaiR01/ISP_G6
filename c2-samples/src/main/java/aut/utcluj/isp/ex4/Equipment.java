@@ -15,40 +15,29 @@ public class Equipment {
     private EquipmentHistory equipmentHistory;
 
     public Equipment(String serialNumber) {
-<<<<<<< HEAD
         this.serialNumber = serialNumber;
         this.taken = false;
         this.currentOwner = null;
-=======
         this.name = "NONE";
         this.serialNumber = serialNumber;
         this.currentOwner = "NONE";
         this.taken = false;
->>>>>>> e289c99fb472e24ebf998e088146089c5fe5b498
     }
 
     public Equipment(String name, String serialNumber) {
         this.name = name;
         this.serialNumber = serialNumber;
-<<<<<<< HEAD
         this.taken = false;
-        this.currentOwner = null;
-=======
         this.currentOwner = "NONE";
-        this.taken = false;
->>>>>>> e289c99fb472e24ebf998e088146089c5fe5b498
     }
 
     public Equipment(String name, String serialNumber, String owner) {
         this.name = name;
         this.serialNumber = serialNumber;
-<<<<<<< HEAD
         this.taken = true;
         this.currentOwner = owner;
-=======
         this.currentOwner = owner;
         this.taken = true;
->>>>>>> e289c99fb472e24ebf998e088146089c5fe5b498
     }
 
     public String getName() {

@@ -29,28 +29,15 @@ public class Equipment  {
 
     @Override
     public String toString() {
-<<<<<<< HEAD
         return name + "_" + serialNumber;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Equipment equipment = (Equipment) o;
-        return Objects.equals(name, equipment.name) && Objects.equals(serialNumber, equipment.serialNumber);
-=======
-        return  name + "_" + serialNumber ;
->>>>>>> e289c99fb472e24ebf998e088146089c5fe5b498
-    }
 
     @Override
     public int hashCode() {
-<<<<<<< HEAD
-        return Objects.hash(name, serialNumber);
-    }
-=======
-        int hash = 5;
+        int hash = 3;
+        hash = 71 * hash + Objects.hashCode(this.name);
+        hash = 71 * hash + Objects.hashCode(this.serialNumber);
         return hash;
     }
 
@@ -71,8 +58,6 @@ public class Equipment  {
         }
         return Objects.equals(this.serialNumber, other.serialNumber);
     }
-    
-    
-    
->>>>>>> e289c99fb472e24ebf998e088146089c5fe5b498
+
+
 }
