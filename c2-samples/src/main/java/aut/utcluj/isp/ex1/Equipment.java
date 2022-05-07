@@ -39,4 +39,12 @@ public class Equipment {
         Equipment equipment = (Equipment) o;
         return Objects.equals(name, equipment.name) && Objects.equals(serialNumber, equipment.serialNumber);
     }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        hash = 71 * hash + Objects.hashCode(this.name);
+        hash = 71 * hash + Objects.hashCode(this.serialNumber);
+        return hash;
+    }
 }

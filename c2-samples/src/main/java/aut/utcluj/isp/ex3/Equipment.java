@@ -62,8 +62,6 @@ public class Equipment {
      * Remove the owner
      */
     public void returnEquipmentToOffice() {
-        this.taken = false;
-        this.owner = null;
         this.owner = null;
         this.taken = false;
     }

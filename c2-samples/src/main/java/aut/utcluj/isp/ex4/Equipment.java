@@ -18,12 +18,14 @@ public class Equipment {
     public Equipment(String serialNumber) {
         this.serialNumber = serialNumber;
         this.taken = false;
+        this.currentOwner = null;
     }
 
     public Equipment(String name, String serialNumber) {
         this.name = name;
         this.serialNumber = serialNumber;
         this.taken = false;
+        this.currentOwner = "NONE";
     }
 
     public Equipment(String name, String serialNumber, String owner) {
