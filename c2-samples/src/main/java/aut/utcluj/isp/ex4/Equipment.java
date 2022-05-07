@@ -1,7 +1,8 @@
 package aut.utcluj.isp.ex4;
 
-import aut.utcluj.isp.ex5.EquipmentHistory;
+import aut.utcluj.isp.ex4.EquipmentHistory;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 /**
@@ -15,40 +16,21 @@ public class Equipment {
     private EquipmentHistory equipmentHistory;
 
     public Equipment(String serialNumber) {
-<<<<<<< HEAD
         this.serialNumber = serialNumber;
         this.taken = false;
-        this.currentOwner = null;
-=======
-        this.name = "NONE";
-        this.serialNumber = serialNumber;
-        this.currentOwner = "NONE";
-        this.taken = false;
->>>>>>> e289c99fb472e24ebf998e088146089c5fe5b498
     }
 
     public Equipment(String name, String serialNumber) {
         this.name = name;
         this.serialNumber = serialNumber;
-<<<<<<< HEAD
         this.taken = false;
-        this.currentOwner = null;
-=======
-        this.currentOwner = "NONE";
-        this.taken = false;
->>>>>>> e289c99fb472e24ebf998e088146089c5fe5b498
     }
 
     public Equipment(String name, String serialNumber, String owner) {
         this.name = name;
         this.serialNumber = serialNumber;
-<<<<<<< HEAD
-        this.taken = true;
-        this.currentOwner = owner;
-=======
         this.currentOwner = owner;
         this.taken = true;
->>>>>>> e289c99fb472e24ebf998e088146089c5fe5b498
     }
 
     public String getName() {
@@ -76,13 +58,15 @@ public class Equipment {
      * @param providedDate - provided date
      */
     public void provideEquipmentToUser(final String owner, final LocalDateTime providedDate) {
-        if (taken) {
-            throw new EquipmentAlreadyProvidedException();
-        } else {
+        if(this.taken == false){
             this.currentOwner = owner;
             this.taken = true;
-            //equipmentHistory.addEquipmentHistory(this.getCurrentOwner(),Operation.PROVIDE,providedDate);
+            LocalDateTime time = providedDate;
+            equipmentHistory = new EquipmentHistory();
+            equipmentHistory.addEquipmentHistory(currentOwner,Operation.PROVIDE,time);
         }
+        else
+            throw new EquipmentAlreadyProvidedException();
     }
 
     /**
@@ -90,13 +74,13 @@ public class Equipment {
      * If equipment is taken, the current user of the equipment should be removed, and taken status should be set to false
      */
     public void returnEquipmentToOffice() {
-        if(!taken){
-            throw new EquipmentNotProvidedException();
+        if(this.taken == true){
+            LocalDateTime time = LocalDateTime.now();
+            equipmentHistory.addEquipmentHistory(currentOwner,Operation.RETURN,time);
+            this.currentOwner = null;
+            this.taken = false;
         }
         else
-        {
-            this.taken = false;
-            this.currentOwner = null;
-        }
+            throw new EquipmentNotProvidedException();
     }
 }

@@ -15,9 +15,9 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({
         aut.utcluj.isp.ex1.EquipmentTest.class,
         aut.utcluj.isp.ex2.NotebookTest.class,
-        aut.utcluj.isp.ex3.EquipmentTest.class,
+        aut.utcluj.isp.ex3.EquipmentTestEX3.class,
         aut.utcluj.isp.ex3.EquipmentControllerTest.class,
-        aut.utcluj.isp.ex4.EquipmentTest.class,
+        aut.utcluj.isp.ex4.EquipmentTestEX4.class,
         aut.utcluj.isp.ex5.EquipmentHistoryTest.class
 })
 public class ColocviuTestSuite {

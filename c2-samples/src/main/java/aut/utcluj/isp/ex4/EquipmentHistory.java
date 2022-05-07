@@ -1,13 +1,17 @@
 package aut.utcluj.isp.ex4;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author stefan
  */
 public class EquipmentHistory {
-    private List<EquipmentHistoryDetails> historyDetailsList;
+    private List<EquipmentHistoryDetails> historyDetailsList = new ArrayList<>();
+
+    public EquipmentHistory() {
+    }
 
     /**
      * Add new history details

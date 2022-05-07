@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 /**
  * @author stefan
  */
-public class EquipmentTest {
+public class EquipmentTestEX4 {
     @Test
     public void testProvideEquipmentToUser() {
         final Equipment equipment = new Equipment("Dell", "SN123");
@@ -31,17 +31,17 @@ public class EquipmentTest {
 
     @Test
     public void testReturnEquipmentToOffice() {
-        final Equipment equipment = new Equipment("Dell", "SN123");
+        final Equipment eq = new Equipment("Dell", "SN123");
 
         // provide equipment to user
-        equipment.provideEquipmentToUser("John", LocalDateTime.now());
-        assertEquals("Owner is 'John'", "John", equipment.getCurrentOwner());
-        assertTrue("Equipment is taken", equipment.isTaken());
+        eq.provideEquipmentToUser("John", LocalDateTime.now());
+        assertEquals("Owner is 'John'", "John", eq.getCurrentOwner());
+        assertTrue("Equipment is taken", eq.isTaken());
 
         // return equipment to the office
-        equipment.returnEquipmentToOffice();
-        assertNull("Current owner should be null", equipment.getCurrentOwner());
-        assertFalse("Equipment is not taken anymore", equipment.isTaken());
+        eq.returnEquipmentToOffice();
+        assertNull("Current owner should be null", eq.getCurrentOwner());
+        assertFalse("Equipment is not taken anymore", eq.isTaken());
     }
 
     @Test(expected = EquipmentNotProvidedException.class)
