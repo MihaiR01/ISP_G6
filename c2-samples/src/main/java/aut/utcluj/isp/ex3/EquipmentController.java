@@ -60,7 +60,7 @@ public class EquipmentController {
      */
     public Equipment removeEquipmentBySerialNumber(final String serialNumber) {
         Equipment removedEq = null;
-        for (int i = 0; i < equipmentList.size(); i++){
+        for (int i = equipmentList.size()-1; i >=0; i--){
             if(equipmentList.get(i).getSerialNumber().equals(serialNumber))
             {
                 removedEq = equipmentList.get(i);
