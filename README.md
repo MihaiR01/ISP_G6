@@ -23,11 +23,16 @@ Steps for resolving lab:
 **Note 2 - Please notice that for this lab there is NO assignment template and you will need to create repository from scratch in github.**    
 
 
-![Class Diagram exercise 2](Class Diagram exercise 2.jpg)
+![Class Diagram exercise 2](docs/CD2.jpg)
 
-![Class Diagram exercise 3](Class Diagram exercise 3.jpg)
-![Use Case Diagram exercise 3](Use Case Diagram exercise 3.jpg)
-![Class Diagram exercise 4](Class Diagram exercise 4.jpg)
-![Use Case Diagram exercise 4](Use Case Diagram exercise 4.jpg)
-![Class Diagram exercise 5](Class Diagram exercise 5.jpg)
-![Use Case Diagram exercise 5](Use Case Diagram exercise 5.jpg)
+![Class Diagram exercise 3](docs/Class Diagram exercise 3.jpg)
+
+![Use Case Diagram exercise 3](docs/Use Case Diagram exercise 3.jpg)
+
+![Class Diagram exercise 4](docs/Class Diagram exercise 4.jpg)
+
+![Use Case Diagram exercise 4](docs/Use Case Diagram exercise 4.jpg)
+
+![Class Diagram exercise 5](docs/Class Diagram exercise 5.jpg)
+
+![Use Case Diagram exercise 5](docs/Use Case Diagram exercise 5.jpg)
