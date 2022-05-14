@@ -25,7 +25,7 @@ public class Equipment {
         this.name = name;
         this.serialNumber = serialNumber;
         this.taken = false;
-        this.currentOwner = "NONE";
+        this.currentOwner = null;
     }
 
     public Equipment(String name, String serialNumber, String owner) {

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="DESKTOP-A5P03KC" name="aut.utcluj.isp.ex4.EquipmentTestEX4" skipped="0" tests="4" time="0.443" timestamp="2022-05-08T09:14:31">
+<testsuite errors="0" failures="0" hostname="DESKTOP-A5P03KC" name="aut.utcluj.isp.ex4.EquipmentTestEX4" skipped="0" tests="4" time="0.205" timestamp="2022-05-14T11:14:03">
   <properties>
     <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-aop-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-aspects-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-beans-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-context-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-context-support-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-core-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-expression-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-instrument-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-jms-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-orm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-oxm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-struts-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-test-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-tx-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-web-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.18.RELEASE.jar" />
     <property name="javac.test.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-4.13.2.jar:build/classes" />
     <property name="java.specification.version" value="17" />
-    <property name="jar.index.metainf" value="false" />
     <property name="libs.spring-framework500.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-aop-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-aspects-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-beans-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-context-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-context-indexer-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-context-support-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-core-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-expression-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-instrument-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-jcl-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-jdbc-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-jms-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-messaging-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-orm-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-oxm-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-test-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-tx-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-web-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-webflux-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-webmvc-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-5\spring-websocket-5.2.9.RELEASE.jar" />
+    <property name="jar.index.metainf" value="false" />
     <property name="libs.spring-framework400.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-aop-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-aspects-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-beans-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-context-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-context-support-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-core-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-expression-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-instrument-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-instrument-tomcat-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-jdbc-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-jms-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-messaging-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-orm-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-oxm-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-test-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-tx-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-web-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-webmvc-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-webmvc-portlet-4.3.29.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-4\spring-websocket-4.3.29.RELEASE.jar" />
     <property name="libs.spring-webmvc4.0.javadoc" value="" />
     <property name="test.binaryincludes" value="&lt;nothing&gt;" />
@@ -18,15 +18,15 @@
     <property name="ant.file.type.colocviu-demo-impl" value="file" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner aut.utcluj.isp.ex4.EquipmentTestEX4 skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Faculta - grupa ISP\isp-lab-11-12-master\ISP_G6\c2-samples\build\test\results\TEST-aut.utcluj.isp.ex4.EquipmentTestEX4.xml crashfile=C:\Faculta - grupa ISP\isp-lab-11-12-master\ISP_G6\c2-samples\build\junitvmwatcher13041809202883542298.properties propsfile=C:\Faculta - grupa ISP\isp-lab-11-12-master\ISP_G6\c2-samples\build\junit14971243948268812992.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner aut.utcluj.isp.ex4.EquipmentTestEX4 skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Faculta - grupa ISP\isp-lab-11-12-master\ISP_G6\c2-samples\build\test\results\TEST-aut.utcluj.isp.ex4.EquipmentTestEX4.xml crashfile=C:\Faculta - grupa ISP\isp-lab-11-12-master\ISP_G6\c2-samples\build\junitvmwatcher2935406175915901900.properties propsfile=C:\Faculta - grupa ISP\isp-lab-11-12-master\ISP_G6\c2-samples\build\junit2448440961150540946.properties" />
     <property name="jdk.debug" value="release" />
     <property name="libs.spring-framework300.src" value="" />
     <property name="javadoc.use" value="true" />
     <property name="javadoc.notree" value="false" />
     <property name="basedir" value="C:\Faculta - grupa ISP\isp-lab-11-12-master\ISP_G6\c2-samples" />
     <property name="application.vendor" value="mihai.hulea" />
-    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
     <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
     <property name="libs.jsf20.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
     <property name="netbeans.extbrowser.manual_chrome_plugin_install" value="yes" />
     <property name="libs.spring-framework500.javadoc" value="" />
@@ -40,24 +40,24 @@
     <property name="sun.java2d.noddraw" value="true" />
     <property name="guice.disable.misplaced.annotation.check" value="true" />
     <property name="sun.zip.disableMemoryMapping" value="true" />
-    <property name="jnidispatch.path" value="C:\Users\Mihai\AppData\Local\Temp\jna-74342228\jna880777946999789327.dll" />
-    <property name="libs.jsp-compilation.javadoc" value="" />
+    <property name="jnidispatch.path" value="C:\Users\Mihai\AppData\Local\Temp\jna-74342228\jna2374718593144327864.dll" />
     <property name="libs.jsf12.src" value="" />
     <property name="libs.primefaces.javadoc" value="" />
+    <property name="libs.jsp-compilation.javadoc" value="" />
     <property name="libs.groovy-all.maven-pom" value="" />
     <property name="libs.restapi.src" value="" />
     <property name="libs.junit_5.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\platform\docs\junit-jupiter-api-5.6.0-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\docs\junit-jupiter-params-5.6.0-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\docs\junit-jupiter-engine-5.6.0-javadoc.jar" />
     <property name="dist.archive.excludes" value="" />
     <property name="java.io.tmpdir" value="C:\Users\Mihai\AppData\Local\Temp\" />
     <property name="java.version" value="17.0.2" />
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="libs.jakartaee-api-8.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\jakartaee8-doc-api.jar" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="native.encoding" value="Cp1252" />
-    <property name="libs.hamcrest.src" value="" />
     <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GtkSharp\2.12\bin;D:\c#\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\PROGRA~2\Aldec\ACTIVE~1.3\BIN;D:\MATLAB\bin;C:\Users\Mihai\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\Mihai\AppData\Local\Microsoft\WindowsApps;C:\Users\Mihai\AppData\Local\GitHubDesktop\bin;C:\Program Files\Azure Data Studio\bin;." />
+    <property name="libs.hamcrest.src" value="" />
     <property name="java.vendor" value="Oracle Corporation" />
-    <property name="libs.groovy-all.src" value="" />
     <property name="libs.testng.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\platform\docs\testng-6.13.1-javadoc.jar" />
+    <property name="libs.groovy-all.src" value="" />
     <property name="meta.inf.dir" value="${src.dir}/META-INF" />
     <property name="libs.testng.maven-pom" value="" />
     <property name="org.openide.version" value="deprecated" />
@@ -68,14 +68,14 @@
     <property name="org.openide.major.version" value="IDE/1" />
     <property name="libs.spring-framework300.javadoc" value="" />
     <property name="ap.proc.none.internal" value="" />
-    <property name="org.openide.specification.version" value="6.2" />
     <property name="ant.file.c1-samples" value="C:\Faculta - grupa ISP\isp-lab-11-12-master\ISP_G6\c2-samples\build.xml" />
+    <property name="org.openide.specification.version" value="6.2" />
     <property name="user.timezone" value="Europe/Bucharest" />
     <property name="jar.index" value="false" />
     <property name="libs.jpa20-persistence.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\eclipselink\javax.persistence-2.2.1.jar" />
-    <property name="java.vm.specification.version" value="17" />
     <property name="libs.junit_5.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-jupiter-api-5.6.0.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-jupiter-params-5.6.0.jar;C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-jupiter-engine-5.6.0.jar" />
     <property name="libs.eclipselinkmodelgen.javadoc" value="" />
+    <property name="java.vm.specification.version" value="17" />
     <property name="javadoc.noindex" value="false" />
     <property name="javadoc.private" value="false" />
     <property name="libs.spring-webmvc4.0.maven-pom" value="" />
@@ -99,8 +99,8 @@
     <property name="netbeans.home" value="C:\Program Files\NetBeans-12.6\netbeans\platform" />
     <property name="libs.CopyLibs.javadoc" value="" />
     <property name="debug-transport-by-os" value="dt_shmem" />
-    <property name="libs.javaee-api-8.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.jsf20.src" value="" />
+    <property name="libs.javaee-api-8.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="libs.jstl.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.javaee-endorsed-api-7.0.maven-pom" value="" />
@@ -114,8 +114,8 @@
     <property name="libs.javaee-endorsed-api-6.0.src" value="" />
     <property name="libs.jsf12.maven-pom" value="" />
     <property name="libs.javaee-endorsed-api-7.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee7-endorsed\javax.annotation-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee7-endorsed\javax.xml.soap-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee7-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee7-endorsed\jaxws-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee7-endorsed\jsr181-api.jar" />
-    <property name="org.netbeans.io.suspend" value="0" />
     <property name="libs.primefaces.maven-pom" value="" />
+    <property name="org.netbeans.io.suspend" value="0" />
     <property name="ant.project.name" value="c1-samples" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="default.javac.target" value="17" />
@@ -145,8 +145,8 @@
     <property name="libs.metro.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\metro\webservices-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\metro\webservices-extra-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\metro\webservices-extra.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\metro\webservices-rt.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\metro\webservices-tools.jar" />
     <property name="libs.CopyLibs.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\java\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
     <property name="sun.os.patch.level" value="" />
-    <property name="javac.test.processorpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-4.13.2.jar:build/classes" />
     <property name="ant.file.colocviu-demo-impl" value="C:\Faculta - grupa ISP\isp-lab-11-12-master\ISP_G6\c2-samples\nbproject\build-impl.xml" />
+    <property name="javac.test.processorpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:C:\Program Files\NetBeans-12.6\netbeans\platform\modules\ext\junit-4.13.2.jar:build/classes" />
     <property name="libs.javaee-web-api-7.0.maven-pom" value="" />
     <property name="libs.javaee-web-api-8.0.maven-pom" value="" />
     <property name="netbeans.dirs" value="C:\Program Files\NetBeans-12.6\netbeans\nb;C:\Program Files\NetBeans-12.6\netbeans\ergonomics;C:\Program Files\NetBeans-12.6\netbeans\ide;C:\Program Files\NetBeans-12.6\netbeans\extide;C:\Program Files\NetBeans-12.6\netbeans\java;C:\Program Files\NetBeans-12.6\netbeans\apisupport;C:\Program Files\NetBeans-12.6\netbeans\webcommon;C:\Program Files\NetBeans-12.6\netbeans\websvccommon;C:\Program Files\NetBeans-12.6\netbeans\enterprise;C:\Program Files\NetBeans-12.6\netbeans\mobility;C:\Program Files\NetBeans-12.6\netbeans\profiler;C:\Program Files\NetBeans-12.6\netbeans\python;C:\Program Files\NetBeans-12.6\netbeans\php;C:\Program Files\NetBeans-12.6\netbeans\identity;C:\Program Files\NetBeans-12.6\netbeans\harness;C:\Program Files\NetBeans-12.6\netbeans\cnd;C:\Program Files\NetBeans-12.6\netbeans\cndext;C:\Program Files\NetBeans-12.6\netbeans\cpplite;C:\Program Files\NetBeans-12.6\netbeans\dlight;C:\Program Files\NetBeans-12.6\netbeans\groovy;C:\Program Files\NetBeans-12.6\netbeans\extra;C:\Program Files\NetBeans-12.6\netbeans\javacard;C:\Program Files\NetBeans-12.6\netbeans\javafx" />
@@ -173,9 +173,9 @@
     <property name="junit.available" value="true" />
     <property name="javac.processormodulepath" value="" />
     <property name="javadoc.encoding" value="UTF-8" />
-    <property name="libs.jsp-compilation-syscp.maven-pom" value="" />
-    <property name="libs.jstl.src" value="" />
     <property name="netbeans.hash.code" value="unique=NB_EXTIDE_JAVA_PHP_WEBCOMMON_WEBEE0d5d696b4-2923-4ddc-8c31-03fe50bddf0d_477affaa-9df5-48d9-ae14-1d163a9445ec" />
+    <property name="libs.jstl.src" value="" />
+    <property name="libs.jsp-compilation-syscp.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar" />
     <property name="ant.file.type.c1-samples" value="file" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
@@ -188,13 +188,12 @@
     <property name="javac.profile.cmd.line.arg" value="" />
     <property name="libs.jakartaee-api-9.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jakarta.jakartaee-api-9.0.0.jar" />
     <property name="application.title" value="colocviu-demo" />
-    <property name="ignore.failing.tests" value="true" />
     <property name="javac.test.modulepath" value="" />
     <property name="libs.PostgreSQLDriver.javadoc" value="" />
     <property name="libs.jsp-compilation-syscp.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
     <property name="libs.jsp-compilation.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jstl-api.jar;C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant-launcher.jar" />
     <property name="libs.javaee-api-6.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee-api-6.0.jar" />
-    <property name="javac.includesfile.binary" value="C:\Faculta - grupa ISP\isp-lab-11-12-master\ISP_G6\c2-samples\null1100182310" />
+    <property name="javac.includesfile.binary" value="C:\Faculta - grupa ISP\isp-lab-11-12-master\ISP_G6\c2-samples\null988047021" />
     <property name="libs.javaee-api-7.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee-api-7.0.jar" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="libs.restapi.maven-pom" value="" />
@@ -214,19 +213,19 @@
     <property name="java.version.date" value="2022-01-18" />
     <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2" />
     <property name="work.dir" value="C:\Faculta - grupa ISP\isp-lab-11-12-master\ISP_G6\c2-samples" />
-    <property name="jna.boot.library.name" value="jnidispatch-nb" />
     <property name="javac.test.compilerargs" value="" />
+    <property name="jna.boot.library.name" value="jnidispatch-nb" />
     <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\postgresql-42.2.16.jar" />
     <property name="libs.graaljs.javadoc" value="" />
     <property name="libs.spring-webmvc3.0.javadoc" value="" />
     <property name="libs.JAXB-ENDORSED.src" value="" />
     <property name="manifest.encoding" value="UTF-8" />
     <property name="user.script" value="" />
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="libs.spring-framework400.src" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="run.test.modulepath" value="" />
-    <property name="libs.graaljs.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\webcommon\modules\ext\js-20.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\webcommon\modules\ext\js-launcher-20.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\webcommon\modules\ext\regex-20.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\webcommon\modules\ext\icu4j-67.1.jar;C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\graal-sdk-20.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\launcher-common-20.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\truffle-api-20.3.0.jar" />
     <property name="libs.javaee-web-api-6.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee-web-api-6.0.jar" />
+    <property name="libs.graaljs.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\webcommon\modules\ext\js-20.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\webcommon\modules\ext\js-launcher-20.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\webcommon\modules\ext\regex-20.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\webcommon\modules\ext\icu4j-67.1.jar;C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\graal-sdk-20.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\launcher-common-20.3.0.jar;C:\Program Files\NetBeans-12.6\netbeans\ide\modules\ext\truffle-api-20.3.0.jar" />
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="debug.test.modulepath" value="" />
     <property name="libs.javaee-web-api-7.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee-web-api-7.0.jar" />
@@ -240,8 +239,8 @@
     <property name="built-jar.properties" value="C:\Faculta - grupa ISP\isp-lab-11-12-master\ISP_G6\c2-samples\build\built-jar.properties" />
     <property name="nb.native.filechooser" value="false" />
     <property name="libs.testng.src" value="" />
-    <property name="platform.active" value="default_platform" />
     <property name="libs.javaee-web-api-8.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee-web-api-8.0.jar" />
+    <property name="platform.active" value="default_platform" />
     <property name="manifest.file" value="manifest.mf" />
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
     <property name="libs.struts.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\struts-1.3.10-javadoc.zip" />
@@ -253,13 +252,13 @@
     <property name="endorsed.classpath.cmd.line.arg" value="" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
     <property name="build.sysclasspath" value="ignore" />
-    <property name="os.name" value="Windows 10" />
     <property name="libs.CopyLibs.maven-pom" value="" />
-    <property name="libs.jakartaee-api-8.0.maven-pom" value="" />
+    <property name="os.name" value="Windows 10" />
     <property name="test.java.dir" value="src\test\java" />
+    <property name="libs.jakartaee-api-8.0.maven-pom" value="" />
     <property name="jdkBug6558476" value="false" />
-    <property name="javadoc.author" value="false" />
     <property name="http.nonProxyHosts" value="localhost|127.0.0.1|DESKTOP-A5P03KC" />
+    <property name="javadoc.author" value="false" />
     <property name="main.class" value="" />
     <property name="libs.jsp-compilation-syscp.javadoc" value="" />
     <property name="source.encoding" value="UTF-8" />
@@ -285,8 +284,8 @@
     <property name="ap.processors.internal" value="" />
     <property name="libs.spring-webmvc5.0.javadoc" value="" />
     <property name="libs.jsf12.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jsf-1_2\jsf-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jsf-1_2\jsf-impl.jar" />
-    <property name="libs.hamcrest.javadoc" value="" />
     <property name="libs.spring-framework400.javadoc" value="" />
+    <property name="libs.hamcrest.javadoc" value="" />
     <property name="java.vm.info" value="mixed mode, sharing" />
     <property name="libs.primefaces.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\primefaces\primefaces-5.0.jar" />
     <property name="libs.jaxws21.maven-pom" value="" />
@@ -319,9 +318,9 @@
     <property name="libs.jsp-compiler.src" value="" />
     <property name="user.name" value="Mihai" />
     <property name="build.classes.dir" value="build/classes" />
-    <property name="javadoc.windowtitle" value="" />
     <property name="nb.junit.single" value="false" />
-    <property name="nb.internal.action.name" value="test.single" />
+    <property name="javadoc.windowtitle" value="" />
+    <property name="nb.internal.action.name" value="run.single" />
     <property name="libs.javaee-api-8.0.maven-pom" value="" />
     <property name="libs.jaxws21.src" value="" />
     <property name="libs.jakartaee-web-api-9.0.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\jakartaee9-doc-api.jar" />
@@ -340,8 +339,8 @@
     <property name="ant.version" value="Apache Ant(TM) version 1.10.8 compiled on May 10 2020" />
     <property name="libs.absolutelayout.maven-pom" value="" />
     <property name="java.failonerror" value="true" />
-    <property name="javac.modulepath" value="" />
     <property name="libs.spring-framework500.src" value="" />
+    <property name="javac.modulepath" value="" />
     <property name="user.properties.file" value="C:\Users\Mihai\AppData\Roaming\NetBeans\12.6\build.properties" />
     <property name="libs.javaee-api-6.0.src" value="" />
     <property name="javac.includes" value="aut/utcluj/isp/ex4/EquipmentTestEX4.java" />
@@ -357,8 +356,8 @@
     <property name="libs.jstl.maven-pom" value="" />
     <property name="libs.jakartaee-web-api-8.0.src" value="" />
     <property name="sun.cpu.endian" value="little" />
-    <property name="libs.jakartaee-api-9.0.src" value="" />
     <property name="libs.junit_4.src" value="C:\Program Files\NetBeans-12.6\netbeans\platform\docs\junit-4.13.2-sources.jar" />
+    <property name="libs.jakartaee-api-9.0.src" value="" />
     <property name="user.language" value="en" />
     <property name="copylibs.rebase" value="true" />
     <property name="libs.javaee-web-api-6.0.src" value="" />
@@ -385,8 +384,8 @@
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
     <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
-    <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
     <property name="user.dir" value="C:\Faculta - grupa ISP\isp-lab-11-12-master\ISP_G6\c2-samples" />
+    <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
     <property name="platform.java" value="C:\Program Files\Java\jdk-17.0.2/bin/java" />
     <property name="application.args" value="" />
     <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
@@ -395,19 +394,19 @@
     <property name="java.vm.version" value="17.0.2+8-LTS-86" />
     <property name="libs.metro.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\webservices-api-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\webservices-extra-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\webservices-extra-api-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\webservices-rt-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\webservices-tools-javadoc.jar" />
     <property name="libs.jakartaee-web-api-9.0.src" value="" />
-    <property name="test.class" value="aut.utcluj.isp.ex4.EquipmentTestEX4" />
     <property name="sun.awt.datatransfer.timeout" value="1000" />
+    <property name="test.class" value="aut.utcluj.isp.ex4.EquipmentTestEX4" />
+    <property name="libs.jsp-compiler.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\ant\extra\jspcompile.jar" />
     <property name="annotation.processing.run.all.processors" value="true" />
     <property name="libs.javaee-web-api-7.0.src" value="" />
-    <property name="junit.forkmode" value="perTest" />
     <property name="libs.jakartaee-api-8.0.src" value="" />
-    <property name="libs.jsp-compiler.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\ant\extra\jspcompile.jar" />
+    <property name="junit.forkmode" value="perTest" />
     <property name="libs.javaee-endorsed-api-6.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
   </properties>
-  <testcase classname="aut.utcluj.isp.ex4.EquipmentTestEX4" name="testProvideEquipmentToUser" time="0.094" />
+  <testcase classname="aut.utcluj.isp.ex4.EquipmentTestEX4" name="testProvideEquipmentToUser" time="0.028" />
   <testcase classname="aut.utcluj.isp.ex4.EquipmentTestEX4" name="testReturnEquipmentToOffice" time="0.001" />
-  <testcase classname="aut.utcluj.isp.ex4.EquipmentTestEX4" name="testProvideEquipmentToUserThrowsExceptionWhenEquipmentIsAlreadyProvided" time="0.002" />
-  <testcase classname="aut.utcluj.isp.ex4.EquipmentTestEX4" name="testReturnEquipmentToOfficeThrowsExceptionWhenEquipmentNotProvided" time="0.0" />
+  <testcase classname="aut.utcluj.isp.ex4.EquipmentTestEX4" name="testProvideEquipmentToUserThrowsExceptionWhenEquipmentIsAlreadyProvided" time="0.001" />
+  <testcase classname="aut.utcluj.isp.ex4.EquipmentTestEX4" name="testReturnEquipmentToOfficeThrowsExceptionWhenEquipmentNotProvided" time="0.001" />
   <system-out><![CDATA[Equipment already provided.
 Equipment not provided.
 ]]></system-out>
