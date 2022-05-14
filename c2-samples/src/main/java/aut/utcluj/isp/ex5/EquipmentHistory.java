@@ -4,27 +4,48 @@ import aut.utcluj.isp.ex4.EquipmentHistoryDetails;
 import aut.utcluj.isp.ex4.Operation;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /**
  * @author stefan
  */
-public class EquipmentHistory {
-    private List<EquipmentHistoryDetails> historyDetailsList;
+public class EquipmentHistory implements IEquipmentHistory, Comparator<EquipmentHistoryDetails> {
+    private List<EquipmentHistoryDetails> historyDetailsList = new ArrayList<>();
 
     public void addEquipmentHistory(final String owner, final Operation operation, final LocalDateTime providedDate) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        historyDetailsList.add(new EquipmentHistoryDetails(owner,operation,providedDate));
     }
 
     public List<EquipmentHistoryDetails> filterEquipmentHistoryByOperation(final Operation operation) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        List<EquipmentHistoryDetails> returnedList = new ArrayList<>();
+        for(EquipmentHistoryDetails eq : historyDetailsList){
+            if(eq.getOperation().equals(operation))
+            {
+                returnedList.add(eq);
+            }
+        }
+        return returnedList;
     }
 
     public List<EquipmentHistoryDetails> sortEquipmentHistoryByDateDesc() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        Collections.sort(historyDetailsList, new Comparator<EquipmentHistoryDetails>() {
+            @Override
+            public int compare(EquipmentHistoryDetails o1, EquipmentHistoryDetails o2) {
+                return o2.getDate().compareTo(o1.getDate());
+            }
+        });
+        return historyDetailsList;
     }
 
     public List<EquipmentHistoryDetails> getHistoryDetailsList() {
         return historyDetailsList;
+    }
+
+    @Override
+    public int compare(EquipmentHistoryDetails o1, EquipmentHistoryDetails o2) {
+        return o1.getDate().compareTo(o2.getDate());
     }
 }

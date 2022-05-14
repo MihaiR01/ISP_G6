@@ -1,7 +1,8 @@
 package aut.utcluj.isp.ex4;
 
-import aut.utcluj.isp.ex5.EquipmentHistory;
+import aut.utcluj.isp.ex4.EquipmentHistory;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 /**
@@ -15,15 +16,23 @@ public class Equipment {
     private EquipmentHistory equipmentHistory;
 
     public Equipment(String serialNumber) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        this.serialNumber = serialNumber;
+        this.taken = false;
+        this.currentOwner = null;
     }
 
     public Equipment(String name, String serialNumber) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        this.name = name;
+        this.serialNumber = serialNumber;
+        this.taken = false;
+        this.currentOwner = null;
     }
 
     public Equipment(String name, String serialNumber, String owner) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        this.name = name;
+        this.serialNumber = serialNumber;
+        this.currentOwner = owner;
+        this.taken = true;
     }
 
     public String getName() {
@@ -51,7 +60,15 @@ public class Equipment {
      * @param providedDate - provided date
      */
     public void provideEquipmentToUser(final String owner, final LocalDateTime providedDate) {
-        equipmentHistory.addEquipmentHistory(owner, Operation.PROVIDE, providedDate);
+        if(this.taken == false){
+            this.currentOwner = owner;
+            this.taken = true;
+            LocalDateTime time = providedDate;
+            equipmentHistory = new EquipmentHistory();
+            equipmentHistory.addEquipmentHistory(currentOwner,Operation.PROVIDE,time);
+        }
+        else
+            throw new EquipmentAlreadyProvidedException();
     }
 
     /**
@@ -59,6 +76,13 @@ public class Equipment {
      * If equipment is taken, the current user of the equipment should be removed, and taken status should be set to false
      */
     public void returnEquipmentToOffice() {
-        equipmentHistory.addEquipmentHistory(this.currentOwner, Operation.RETURN, LocalDateTime.now());
+        if(this.taken == true){
+            LocalDateTime time = LocalDateTime.now();
+            equipmentHistory.addEquipmentHistory(currentOwner,Operation.RETURN,time);
+            this.currentOwner = null;
+            this.taken = false;
+        }
+        else
+            throw new EquipmentNotProvidedException();
     }
 }

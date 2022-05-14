@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 /**
  * @author stefan
  */
-public class EquipmentTest {
+public class EquipmentTestEX3 {
     @Test
     public void testCreate() {
         final Equipment firstEquipment = new Equipment("Dell", "SN123");
