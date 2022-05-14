@@ -21,7 +21,7 @@ Steps for resolving lab:
 **Note 1 - This lab does not count to the final lab grade. It just gives you a chance to experiment how you can work in collaboration on a git repository.**
 
 **Note 2 - Please notice that for this lab there is NO assignment template and you will need to create repository from scratch in github.**    
-![Class Diagram exercise 2](/Class Diagram exercise 2.jpg)
+![Class Diagram exercise 2](/CD2.jpg)
 ![Class Diagram exercise 3](Class Diagram exercise 3.jpg)
 ![Use Case Diagram exercise 3](Use Case Diagram exercise 3.jpg)
 ![Class Diagram exercise 4](Class Diagram exercise 4.jpg)
