@@ -25,14 +25,14 @@ Steps for resolving lab:
 
 ![Class Diagram exercise 2](docs/CD2.jpg)
 
-![Class Diagram exercise 3](docs/Class Diagram exercise 3.jpg)
+![Class Diagram exercise 3](docs/ClassDiagram3.jpg)
 
-![Use Case Diagram exercise 3](docs/Use Case Diagram exercise 3.jpg)
+![Use Case Diagram exercise 3](docs/UseCase3.jpg)
 
-![Class Diagram exercise 4](docs/Class Diagram exercise 4.jpg)
+![Class Diagram exercise 4](docs/ClassDiagram4.jpg)
 
-![Use Case Diagram exercise 4](docs/Use Case Diagram exercise 4.jpg)
+![Use Case Diagram exercise 4](docs/UseCase4.jpg)
 
-![Class Diagram exercise 5](docs/Class Diagram exercise 5.jpg)
+![Class Diagram exercise 5](docs/ClassDiagram5.jpg)
 
-![Use Case Diagram exercise 5](docs/Use Case Diagram exercise 5.jpg)
+![Use Case Diagram exercise 5](docs/UseCase5.jpg)
